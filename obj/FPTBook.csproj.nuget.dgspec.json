@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khoiv\\OneDrive\\Máy tính\\1670 Thầy Việt\\Web_ASP.NET\\FPTBook\\FPTBook.csproj": {}
+    "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khoiv\\OneDrive\\Máy tính\\1670 Thầy Việt\\Web_ASP.NET\\FPTBook\\FPTBook.csproj": {
+    "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khoiv\\OneDrive\\Máy tính\\1670 Thầy Việt\\Web_ASP.NET\\FPTBook\\FPTBook.csproj",
+        "projectUniqueName": "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj",
         "projectName": "FPTBook",
-        "projectPath": "C:\\Users\\khoiv\\OneDrive\\Máy tính\\1670 Thầy Việt\\Web_ASP.NET\\FPTBook\\FPTBook.csproj",
-        "packagesPath": "C:\\Users\\khoiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khoiv\\OneDrive\\Máy tính\\1670 Thầy Việt\\Web_ASP.NET\\FPTBook\\obj\\",
+        "projectPath": "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj",
+        "packagesPath": "D:\\Users\\Nguyen Anh Trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\1670\\src\\ASM\\ASP.NET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khoiv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\Users\\Nguyen Anh Trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "D:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FPTBook
 build_property.RootNamespace = FPTBook
-build_property.ProjectDir = C:\Users\khoiv\OneDrive\Máy tính\1670 Thầy Việt\Web_ASP.NET\FPTBook\
+build_property.ProjectDir = D:\1670\src\ASM\ASP.NET\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\khoiv\OneDrive\Máy tính\1670 Thầy Việt\Web_ASP.NET\FPTBook
+build_property.MSBuildProjectDirectory = D:\1670\src\ASM\ASP.NET
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Book/Create.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Book/Delete.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Book/Details.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Book/Edit.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Book/Index.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/Create.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/Delete.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/Details.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/Edit.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/Index.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Category/SetCategory.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Category/SetCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2V0Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Home/Index.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Home/Privacy.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Shared/adminLO.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Shared/adminLO.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluTE8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Shared/Error.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/_ViewImports.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/_ViewStart.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/khoiv/OneDrive/Máy tính/1670 Thầy Việt/Web_ASP.NET/FPTBook/Views/Shared/_Layout.cshtml]
+[D:/1670/src/ASM/ASP.NET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bm79rppy57

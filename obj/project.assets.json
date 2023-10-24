@@ -11217,11 +11217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj",
+      "projectUniqueName": "D:\\1670\\src\\ASM\\FPTBook\\FPTBook.csproj",
       "projectName": "FPTBook",
-      "projectPath": "D:\\1670\\src\\ASM\\ASP.NET\\FPTBook.csproj",
+      "projectPath": "D:\\1670\\src\\ASM\\FPTBook\\FPTBook.csproj",
       "packagesPath": "D:\\Users\\Nguyen Anh Trinh\\.nuget\\packages\\",
-      "outputPath": "D:\\1670\\src\\ASM\\ASP.NET\\obj\\",
+      "outputPath": "D:\\1670\\src\\ASM\\FPTBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

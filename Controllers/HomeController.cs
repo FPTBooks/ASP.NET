@@ -1,21 +1,29 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FPTBook.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly FptbookContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+
+    public HomeController(FptbookContext context,ILogger<HomeController> logger)
+
     {
+        _context = context;
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index(int page = 1, int pageSize = 4)
     {
-        return View();
+       var dbtestContext = _context.Books.Include(b => b.Cat).Skip((page - 1) * pageSize).Take(pageSize);
+        ViewBag.TotalPage = Math.Ceiling((double)_context.Books.Count() / pageSize);
+        ViewBag.Page = page;
+       return View(await dbtestContext.ToListAsync());
     }
 
     public IActionResult Privacy()

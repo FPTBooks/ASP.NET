@@ -67,25 +67,27 @@ namespace FPTBook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Author,Quantity,Price,Description,Image,CatId,ImageFile")] Book book)
+        public async Task<IActionResult> Create([Bind("Id,Name,Author,Quantity,Price,Description,Image,CatId,ImageFile")] Book Book)
         {
             if (ModelState.IsValid)
             {
-                string uniqueFileName = GetUniqueFileName(book.ImageFile.FileName);
+                string uniqueFileName = GetUniqueFileName(Book.ImageFile.FileName);
                 string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", uniqueFileName);
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    await book.ImageFile.CopyToAsync(fileStream);
+                    await Book.ImageFile.CopyToAsync(fileStream);
                 }
-                book.Image = uniqueFileName;
+                Book.Image = uniqueFileName;
 
-                _context.Add(book);
+                _context.Add(Book);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CatId"] = new SelectList(_context.Categories, "Id", "Name", book.CatId);
-            return View(book);
+
+            // Trinh function
+            ViewData["CatId"] = new SelectList(_context.Categories, "Id", "Name", Book.CatId);
+            return View(Book);
         }
 
         // GET: Book/Edit/5

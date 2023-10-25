@@ -1,0 +1,28 @@
+@model IEnumerable<FPTBook.Models.Book>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-6">
+            <div class="product">
+                <img src="~/uploads/@product.Image" width="100px" alt="">
+                <h4>@product.Name</h4>
+                <p>@product.Price.ToString("C")</p>
+                <a asp-controller="Book" asp-action="Details" asp-route-id="@product.Id"><i class="fas fa-info-circle"></i></a>
+            </div>
+        </div>
+    }
+</div>
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPage; i++)
+        {
+            <li class="page-item @(i == ViewBag.Page ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Show", new { page = i })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+

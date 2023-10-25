@@ -36,6 +36,14 @@ namespace FPTBook.Controllers
             return View(await fptbookContext.ToListAsync());
         }
 
+        public async Task<IActionResult> Show(int page = 1, int pageSize = 4)
+        {
+            var fptbookContext = _context.Books.Include(b => b.Cat).Skip((page - 1) * pageSize).Take(pageSize);
+            ViewBag.TotalPage = Math.Ceiling((double)_context.Books.Count() / pageSize);
+            ViewBag.Page = page;
+            return View(await fptbookContext.ToListAsync());
+        }
+
         // GET: Book/Details/5
         public async Task<IActionResult> Details(int? id)
         {
